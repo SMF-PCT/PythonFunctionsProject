@@ -5,28 +5,21 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-    def main():
-        print("Welcome to the Python Functions Project!")
-
-if __name__ == "__main__":
-    main()
-
-
+#Subtraction
 def subtract(x, y):
     return x - y
 
-
+#Multiplication
 def multiply(x, y):
     return x * y
 
-
+#Division
 def divide(x, y):
     if y == 0:
         return "Error: Cannot divide by zero"
     return x / y
 
-
+#Calculator set up
 def calculator():
     print("Simple Calculator")
     print("-" * 30)
